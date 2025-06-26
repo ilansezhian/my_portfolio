@@ -1,0 +1,51 @@
+/* File: CounterApp.css */
+.counter-app {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 2rem;
+  text-align: center;
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.counter-app h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.counter-display {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #1e40af;
+}
+
+.counter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.counter-buttons button {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 10px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-buttons button:hover {
+  background: #2563eb;
+}
+
+.counter-buttons button:active {
+  transform: scale(0.95);
+}

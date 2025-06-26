@@ -1,0 +1,75 @@
+/* Contact.css */
+.contact {
+  padding: 60px 20px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.contact-intro {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+}
+
+.dark-mode .contact-form {
+  background: #1f2937;
+  color: white;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-icon {
+  font-size: 1.2rem;
+  color: #3b82f6;
+}
+
+input,
+textarea {
+  flex: 1;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #3b82f6;
+  outline: none;
+}
+
+.send-btn {
+  padding: 12px 20px;
+  background: linear-gradient(to right, #3b82f6, #6366f1);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: background 0.3s ease;
+}
+
+.send-btn:hover {
+  background: linear-gradient(to right, #2563eb, #4f46e5);
+}

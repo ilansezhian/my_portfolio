@@ -1,0 +1,83 @@
+/* File: TodoApp.css */
+.todo-app {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 2rem;
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.todo-app h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.todo-form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.todo-form input {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  flex: 1;
+}
+
+.todo-form button {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.todo-form button:hover {
+  background: #2563eb;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-list li {
+  background: #ffffff;
+  padding: 1rem;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s ease;
+}
+
+.todo-list li.completed span {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.actions button {
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  margin-left: 10px;
+  cursor: pointer;
+  color: #555;
+  transition: transform 0.2s ease;
+}
+
+.actions button:hover {
+  transform: scale(1.2);
+  color: #000;
+}
